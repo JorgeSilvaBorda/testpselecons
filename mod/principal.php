@@ -1,24 +1,14 @@
-<style>
-    .header{
-	background-image: url('images/land.png');
-	background-attachment: fixed;
-	background-size: cover;
-	/*background-position: center; /*  Jorge Silva 20181911   */
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-    }
-</style>
-<header class="header">
-    <div class="overlay"></div>
-    <div class="container">
-	<div class="description">
-	    <h1>Bienvenido a TestPSelecons.
-		<p>Contamos con especializados productos de evaluación que puede ver en la sección de productos!
-		</p>   
-		<button class="btn btn-outline-secondary btn-lg">Ver más...</button>
-	    </h1>
+<div class="modulo" id="modulo-principal">
+    <header id="header-principal" class="header">
+	<div class="overlay"></div>
+	<div class="container">
+	    <div class="description">
+		<h1>Bienvenido a TestPSelecons.
+		    <p>Contamos con especializados productos de evaluación que puede ver en la sección de productos!
+		    </p>   
+		    <button class="btn btn-outline-secondary btn-lg">Ver más...</button>
+		</h1>
+	    </div>
 	</div>
-    </div>
-</header>
+    </header>
+</div>

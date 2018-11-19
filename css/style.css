@@ -13,7 +13,7 @@
 
 /*header style*/
 
-.header{
+.header#header-principal{
     background-image: url('../images/land.png');
     background-attachment: fixed;
     background-size: cover;

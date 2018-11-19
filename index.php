@@ -34,6 +34,7 @@
     <body>
 	<script type="text/javascript">
             $(document).ready(function () {
+		$('.modulo').hide();
                 cargar("principal");
             });
 	</script>
@@ -41,9 +42,10 @@
 	    <?php
 	    include "mod/menu.php";
 	    ?>
-	    <div id="contenido">
+	    <div id="contenido" style="display: none;">
 		<?php
-		//include "mod/principal.php";
+		include "mod/principal.php";
+		include "mod/nosotros.php";
 		?>
 	    </div>
         </div>
