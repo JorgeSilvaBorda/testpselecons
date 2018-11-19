@@ -1,24 +1,51 @@
 <html>
-<head>
-    <title>
-        TestPSelecons
-    </title>
-    <!-- Scripts ---------------------------------------------->
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <!-- script type="text/javascript" src="js/bootstrap.bundle.js"></script-->
-    <!-- /Scripts --------------------------------------------->
+    <head>
+        <title>
+            TestPSelecons
+        </title>
+        <!-- Scripts ---------------------------------------------->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
 
-    <!-- Estilos ---------------------------------------------->
-    <link rel="icon" href="img/favicon.ico" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/bootstrap-grid.css" />
-    <link rel="stylesheet" href="css/bootstrap-reboot.css" />
-    <link rel="stylesheet" href="css/style.css" />
-	<!-- /Estilos --------------------------------------------->
+        <script type="text/javascript" src='js/main.js'></script>
+	<script type="text/javascript" src='js/constantes.js'></script>
+	<script type="text/javascript" src='js/funciones.js'></script>
+        <!-- /Scripts --------------------------------------------->
 
-	<!-- Meta tags -------------------------------------------->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- /Meta tags ------------------------------------------->
-</head>
+        <!-- Estilos ---------------------------------------------->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/bootstrap-grid.css" />
+        <link rel="stylesheet" href="css/bootstrap-reboot.css" />
+
+        <link rel="stylesheet" href="css/style.css" />
+	<link rel="icon" href="images/favicon.ico" />
+        <!-- /Estilos --------------------------------------------->
+
+        <!-- Meta tags -------------------------------------------->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="description" content="TestPSelecons">
+	<meta name="keywords" content="Test psicológicos, libros psicología">
+	<meta name="author" content="Jorge Silva Borda">
+        <!-- /Meta tags ------------------------------------------->
+    </head>
+
+    <body>
+	<script type="text/javascript">
+            $(document).ready(function () {
+                cargar("principal");
+            });
+	</script>
+        <div class="container-fluid">
+	    <?php
+	    include "mod/menu.php";
+	    ?>
+	    <div id="contenido">
+		<?php
+		//include "mod/principal.php";
+		?>
+	    </div>
+        </div>
+    </body>
+</html>
