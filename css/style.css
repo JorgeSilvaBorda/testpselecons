@@ -17,7 +17,6 @@
     background-image: url('../images/land.png');
     background-attachment: fixed;
     background-size: cover;
-    /*background-position: center; /*  Jorge Silva 20181911   */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,7 +26,6 @@
     background-image: url('../images/nosotros.jpg');
     background-attachment: fixed;
     background-size: cover;
-    /*background-position: center; /*  Jorge Silva 20181911   */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,7 +35,6 @@
     background-image: url('../images/servicios.jpg');
     background-attachment: fixed;
     background-size: cover;
-    /*background-position: center; /*  Jorge Silva 20181911   */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -47,7 +44,25 @@
     background-image: url('../images/rorschach-grande.jpg');
     background-attachment: fixed;
     background-size: cover;
-    /*background-position: center; /*  Jorge Silva 20181911   */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.header#header-metodos-compra{
+    background-image: url('../images/medios-pago.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header#header-contacto{
+    background-image: url('../images/contacto.jpg');
+    background-attachment: fixed;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -104,5 +119,5 @@ hr.separador {
 }
 
 .card-deck.card {
-  min-width: 220px;
+  min-width: 200px;
 }
