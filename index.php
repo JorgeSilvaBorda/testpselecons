@@ -48,6 +48,8 @@
 		include "mod/nosotros.php";
 		include "mod/servicios.php";
 		include "mod/productos.php";
+		include "mod/metodos-compra.php";
+		include "mod/contacto.php";
 		?>
 	    </div>
         </div>
