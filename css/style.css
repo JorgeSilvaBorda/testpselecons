@@ -1,3 +1,7 @@
+html{
+    font-size: 12px;
+}
+
 .navbar{ background:#2C6F51;}
 .nav-link , .navbar-brand{ color: #C2DE57; cursor: pointer;}
 .nav-link{ margin-right: 1em !important;}
@@ -118,6 +122,18 @@ hr.separador {
   max-width: 700px;
 }
 
+.card-deck{
+    float: none;
+    margin: 0 auto;
+}
+
 .card-deck.card {
-  min-width: 200px;
+  min-width: 220px;
+  float: none;
+  margin: 0 auto;
+}
+
+.card{
+    min-width: 300px;
+    max-width: 300px;
 }

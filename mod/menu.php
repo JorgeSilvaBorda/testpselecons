@@ -1,5 +1,6 @@
 <!-- navbar -->  
 <nav class="navbar navbar-expand-lg fixed-top ">  
+    <img src="images/logo.png" height="40" width="40"/>
     <a onclick="cargar(modulos.principal.nombre);" class="navbar-brand" href="#">TestPSelecons</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
         <span class="navbar-toggler-icon"></span>

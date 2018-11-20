@@ -60,7 +60,7 @@
 			<div class="row">
 			    <div class="col-md-12 mb-3">
 				<label for="comentarios">Comentarios</label>
-				<textarea class="custom-select d-block w-100" id="comentarios" style="height: 150px;" required>
+				<textarea class="custom-select d-block w-100" id="comentarios" style="height: 400px;" required>
 				</textarea>
 			    </div>
 			</div>
