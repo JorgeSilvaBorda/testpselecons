@@ -12,7 +12,7 @@
             <li class="nav-item"  onclick="cargar(modulos.servicios.nombre);">
                 <a class="nav-link " data-value="servicios" href="#">Servicios</a>    
             </li>
-            <li class="nav-item"  onclick="cargar(modulos.producto.nombre);"> 
+            <li class="nav-item"  onclick="cargar(modulos.productos.nombre);"> 
                 <a class="nav-link " data-value="productos" href="#">Productos</a>
             </li>   
             <li class="nav-item"  onclick="cargar(modulos.metodosCompra.nombre);">  

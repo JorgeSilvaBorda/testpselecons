@@ -3,10 +3,10 @@
 	<div class="overlay"></div>
 	<div class="container">
 	    <div class="description">
-		<h1>Bienvenido a TestPSelecons.
-		    <p>Contamos con especializados productos de evaluación que puede ver en la sección de productos!
+		<h1 class="display-3">Bienvenido a TestPSelecons.
+		    <p class="lead">Somos especialistas en evaluación psicolaboral y contamos con todas las herramientas necesarias y los servicios adecuados para garantizar la calidad de su trabajo.
 		    </p>   
-		    <button class="btn btn-outline-secondary btn-lg">Ver más...</button>
+		    <!-- button class="btn btn-outline-secondary btn-lg">Ver más...</button -->
 		</h1>
 	    </div>
 	</div>

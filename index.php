@@ -1,4 +1,4 @@
-<html>
+<html lang="es">
     <head>
         <title>
             TestPSelecons
@@ -42,10 +42,12 @@
 	    <?php
 	    include "mod/menu.php";
 	    ?>
-	    <div id="contenido" style="display: none;">
+	    <div id="contenido" class="container-fuid" style="display: none;">
 		<?php
 		include "mod/principal.php";
 		include "mod/nosotros.php";
+		include "mod/servicios.php";
+		include "mod/productos.php";
 		?>
 	    </div>
         </div>
